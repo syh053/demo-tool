@@ -9,3 +9,7 @@ dependencies = []
 members = [
     "src/*",
 ]
+
+[tool.uv.sources]
+database = { workspace = true }
+request = { workspace = true }
